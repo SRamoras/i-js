@@ -1,6 +1,6 @@
-FROM nginx
+FROM node
 
 WORKDIR /app
-COPY .src app/src
+COPY ./src /app/src
 
-RUN ["bash"]
+CMD ["bash"]

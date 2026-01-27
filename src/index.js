@@ -1,5 +1,10 @@
-let num = 10;
+num = 11
+message = ""
 
-if(10 >= num && 20 <= num && num !== 15) return console.log("Esta entre 10 e 20")
+if(num >= 10 && num <= 20 && num !== 15){
+    message = "Esta entre 10 e 20"
+} 
 
-num % 2 == 0 ? console.log("É Par") : console.log("É Impar")
+num % 2 == 0 ? message +=" e tambem é Par" : message += " e tambem é Impar"
+
+console.log(message)

@@ -2,10 +2,10 @@ up:
 	docker compose up --build
 
 build:
-	docker build -t g-javascript .
+	docker build -t i-js .
 
 run: build
-	docker run -it -v ${shell pwd}:/app g-javascript npm run start
+	docker run --rm -it -v "$(CURDIR)":/app i-js npm run start
 
 bash: build
-	docker run -it -v ${shell pwd}:/app g-javascript bash
+	docker run --rm -it -v "$(CURDIR)":/app i-js bash
