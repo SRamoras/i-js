@@ -1,4 +1,7 @@
-num = 11
+var prompt = require('prompt-sync')();
+
+var num = prompt('Insira um numero? ');
+
 message = ""
 
 if(num >= 10 && num <= 20 && num !== 15){
