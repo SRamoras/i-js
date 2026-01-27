@@ -1,0 +1,6 @@
+FROM nginx
+
+WORKDIR /app
+COPY .src app/src
+
+RUN ["bash"]
