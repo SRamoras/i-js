@@ -16,7 +16,7 @@
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js",
-    "esteroids": "node src/esteroids.js",
+    "desafio_28_1_2026": "node src/desafio_28_1_2026.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
