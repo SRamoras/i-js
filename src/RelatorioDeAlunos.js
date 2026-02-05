@@ -1,5 +1,4 @@
-import promptSync from "prompt-sync";
-const prompt = promptSync();
+var prompt = require('prompt-sync')();
 
 function funcA(){
     let name  = prompt("Insira o nome do aluno: ");
@@ -76,7 +75,9 @@ let alunos = [
     {id: 1, name: "Diogo", grades: [12, 9, 8], role: "admin"}, 
     {id: 2, name: "David", grades: [9, 8, 7], role: "editor"}, 
     {id: 3, name: "", grades: [], role: "Admin"}, 
-    {id: 4, name: null, grades: [0], role: "sem acesso"}]
+    {id: 4, name: null, grades: [0], role: "aluno"},
+    {id: 5, name: "Laura", grades: [20, 18, 17], role: "aluno"}
+]
 
 let linhas = []
 let swich = true

@@ -18,6 +18,7 @@
     "start": "node src/index.js",
     "desafio_28_1_2026": "node src/desafio_28_1_2026.js",
     "desafio_2_2_2026": "node src/desafio_2_2_2026.js",
+    "RelatorioDeAlunos": "node src/RelatorioDeAlunos.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
